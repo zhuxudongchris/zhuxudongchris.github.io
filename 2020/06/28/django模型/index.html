@@ -212,7 +212,7 @@
 </tr>
 <tr>
 <td><code>DateField</code></td>
-<td>日期类型。在<code>Python</code>中是<code>datetime.date</code>类型，可以记录年月日。在映射到数据库中也是<code>date</code>类型。使用这个<code>Field</code>可以传递以下几个参数：<br />    1. <code>auto_now</code>:在每次这个数据保存的时候，都使用当前的时间。比如作为一个记录修改日期的字段，可以将这个属性     设置为<code>True</code>。<br />    2.<code>auto_now_add</code>：在每次数据第一次被添加进去的时候，都使用当前的时间。比如作为一个记录第一次入库的字段，可以将这个属性设置为<code>True</code>。</td>
+<td>日期类型。在<code>Python</code>中是<code>datetime.date</code>类型，可以记录年月日。在映射到数据库中也是<code>date</code>类型。使用这个<code>Field</code>可以传递以下几个参数：<br>    1. <code>auto_now</code>:在每次这个数据保存的时候，都使用当前的时间。比如作为一个记录修改日期的字段，可以将这个属性     设置为<code>True</code>。<br>    2.<code>auto_now_add</code>：在每次数据第一次被添加进去的时候，都使用当前的时间。比如作为一个记录第一次入库的字段，可以将这个属性设置为<code>True</code>。</td>
 </tr>
 <tr>
 <td><code>DateTimeField</code></td>
@@ -224,7 +224,7 @@
 </tr>
 <tr>
 <td><code>DecimalField</code></td>
-<td><code>models.DecimalField(max_digits=None, decimal_places=None[, **options])</code><br />使用 <code>Decimal</code> 实例表示固定精度的十进制数的字段。它有两个必须的参数：<br/><code>max_digits</code>：数字允许的最大位数<br/><code>decimal_places</code>：小数的最大位数<br/>例如，要存储的数字最大长度为3位，而带有两个小数位，可以使用：<br/><code>models.DecimalField( max_digits=3, decimal_places=2,...)</code></td>
+<td><code>models.DecimalField(max_digits=None, decimal_places=None[, **options])</code><br>使用 <code>Decimal</code> 实例表示固定精度的十进制数的字段。它有两个必须的参数：<br><code>max_digits</code>：数字允许的最大位数<br><code>decimal_places</code>：小数的最大位数<br>例如，要存储的数字最大长度为3位，而带有两个小数位，可以使用：<br><code>models.DecimalField( max_digits=3, decimal_places=2,...)</code></td>
 </tr>
 </tbody></table>
 <p>==注意：==在mysql 5.0以上的版本时关于字符长度中文字符和英文字符一样都是字面大小，不需要转化。</p>
@@ -762,9 +762,18 @@
   
 <nav id="article-nav">
   
+    <a href="/HexoBlog/2020/06/28/leetcode%E9%A2%98%E8%A7%A3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          leetcode题解
+        
+      </div>
+    </a>
   
-    <a href="/HexoBlog/2020/06/28/java/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">java</div>
+  
+    <a href="/HexoBlog/2020/06/28/leetcode%E9%A2%98%E8%A7%A3/java/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">leetcode题解/java</div>
       <i class="icon-circle-right"></i>
     </a>
   
